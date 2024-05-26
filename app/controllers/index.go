@@ -9,7 +9,7 @@ type IndexController struct {
 func (ctl *IndexController) Index() {
 	ctl.JSON(common.JsonResult{
 		Code:  1,
-		Msg:   "欢迎使用！",
+		Msg:   "Email:chen1350962574@Gmail.com | 1350962574@QQ.com",
 		Data:  nil,
 		Count: 0,
 	})
