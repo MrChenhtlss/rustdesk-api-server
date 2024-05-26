@@ -9,6 +9,11 @@ RustDesk Api 服务器端 Go语言版本，支持sqlite3、mysql数据库
 安装Golang 
 
 安装GCC并配置PATH
+```
+go build # DBtype=mysql
+cgo_enable=0 && go build # DBtype=sqlite
+
+```
 
 ## 使用方法
 
